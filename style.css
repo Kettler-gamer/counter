@@ -1,4 +1,4 @@
-.counter-add,
+.counter-btn,
 .counter-display {
   border: 5px solid grey;
   border-radius: 1em;
@@ -13,7 +13,7 @@
   width: fit-content;
 }
 
-.counter-add {
+.counter-btn {
   width: 100px;
   height: 75px;
 }
