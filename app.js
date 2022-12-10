@@ -1,9 +1,13 @@
-const addButton = document.querySelector(".counter-add");
+const addButton = document.querySelectorAll(".counter-btn");
 const counterDisplay = document.querySelector(".counter-display");
 
 let counter = 0;
 
-addButton.addEventListener("click", () => {
+addButton[0].addEventListener("click", () => {
   counter++;
+  counterDisplay.textContent = counter;
+});
+addButton[1].addEventListener("click", () => {
+  counter--;
   counterDisplay.textContent = counter;
 });
