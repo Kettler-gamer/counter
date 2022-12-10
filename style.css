@@ -1,0 +1,14 @@
+.counter-display {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.counter-add {
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
